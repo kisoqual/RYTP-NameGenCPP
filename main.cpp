@@ -7,7 +7,7 @@ using std::endl;
 //using std::cout, std::cin, std::endl; // нужон C++17 для этого
 
 const char i[6] = " RYTP"; 
-char j[256] = "";
+char j[256];
 
 int main()
 {
