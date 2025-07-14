@@ -1,5 +1,6 @@
 #include <iostream>
 #include "add.h"
+//#include "add.hpp" // если будут проблемы
 
 using std::cout;
 using std::cin;
