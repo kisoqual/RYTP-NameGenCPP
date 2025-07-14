@@ -15,4 +15,5 @@ int main()
     cout << "какой ты RYTP хочеш? ";
     cin >> j;
     cout << j << i << endl;
+    return 0; //можно не писать, но на всякий случай
 }
