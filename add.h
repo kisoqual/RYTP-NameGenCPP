@@ -2,6 +2,7 @@
 #pragma once
 #include <iostream>
 #include <string>
+//#include <cstring> //если надумаете заюзать массив из char вместо string
 
 using std::cout;
 using std::cin;
@@ -16,3 +17,13 @@ void lulz(const string& i = "") {
   getline(cin, j);
   cout << j + i << endl;
 }
+
+//если надумаете заюзать массив из char вместо string
+/*
+void lulz(const char* i = "") {
+    char j[256];
+    cout << "какой ты RYTP хочеш? ";
+    cin.getline(j, sizeof(j)); // указываем размер буфера
+    cout << j << i << endl;
+}
+*/
